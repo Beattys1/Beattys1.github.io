@@ -1,0 +1,8 @@
+.sbThumbnail{
+  display:inline-block;
+}
+.sbThumbImg{
+  height:20% !important;
+  width:20% !important;
+  border-radius: 10px;
+}
