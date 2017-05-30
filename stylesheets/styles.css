@@ -1,8 +1,50 @@
-.sbThumbnail{
-  display:inline-block;
+.infoCenter{
+  text-align: center;
 }
+
+.projectsThumbnail{
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width:352px;
+  text-align:center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.skillsThumbnail{
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width:225px;
+  text-align:center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.projectsThumbnail > li {
+    display: inline-block;
+    *display:inline;
+    float:none;
+}
+
+.skillsThumbnail > li {
+    display: inline-block;
+    *display:inline;
+    float:none;
+}
+
+.thumbnailImage{
+  height:50px;
+  width:50px;
+}
+
+
+
 .sbThumbImg{
-  height:20% !important;
-  width:20% !important;
-  border-radius: 10px;
+  height:80px !important;
+  width:80px !important;
+
 }
